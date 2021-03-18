@@ -18,6 +18,7 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 from apps.registro.views import Index, crearPostulante
+from django.config.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
